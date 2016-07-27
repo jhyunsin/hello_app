@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_first_num"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_second_num"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_plus"
+        android:textColor="#3cff00"
+        android:layout_marginTop="10dp"
+        android:background="#007bff"
+        android:text="+"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_minus"
+        android:textColor="#3cff00"
+        android:layout_marginTop="10dp"
+        android:background="#007bff"
+        android:text="-"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_multi"
+        android:textColor="#3cff00"
+        android:layout_marginTop="10dp"
+        android:background="#007bff"
+        android:text="x"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_divide"
+        android:textColor="#3cff00"
+        android:layout_marginTop="10dp"
+        android:background="#007bff"
+        android:text="÷"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_rest"
+        android:textColor="#3cff00"
+        android:layout_marginTop="10dp"
+        android:background="#007bff"
+        android:text="%"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_equal"
+        android:textColor="#3cff00"
+        android:layout_marginTop="10dp"
+        android:background="#007bff"
+        android:text="="/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산결과"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv_result"
+        android:textColor="#3cff00"
+        android:gravity="center"
+                />
+
+
+
+
+
+
+</LinearLayout>
